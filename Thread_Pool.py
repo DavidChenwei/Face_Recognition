@@ -3,13 +3,14 @@ from concurrent.futures import ThreadPoolExecutor
 
 class Thread():
     """
-    线程池类
+    ThreadPool Class
     """
 
-    # 初始化线程池
+    # Init ThreadPool
     def __init__(self):
-        # 创建一个包含10条线程的线程池
+        # Create a ThreadPool with 10 threads
         self.pool = ThreadPoolExecutor(max_workers=10)
 
     def get_result(self, future):
         print(future.result())
+
