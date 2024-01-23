@@ -30,3 +30,4 @@ python main.py
 ## Other documents explained
 - Thread_Pool.py Thread pool for handling concurrent requests in the server.
 - face_recognition.py API for face recognition.
+-
